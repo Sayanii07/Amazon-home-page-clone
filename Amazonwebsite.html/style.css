@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    height: 50px;
+    width: 113px;
+    background-image: url(newamazonlogo.png);
+    background-size: cover;
+}
+.navadress{
+    align-items: center;
+}
+.add-icon{
+    display: flex;
+    margin-left: 0 px;
+    
+}
+.add-fir{
+    color: #cccccc ;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+.india{
+    font-size: 1 rem;
+    color: white;
+    margin-left: 2px;
+}
+.nav-search{
+    width: 620px;
+    height: 40px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #e9e7e7;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 51px;
+    text-align: center;
+}
+.search-place{
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 152, 52);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 20px;
+    color: black;
+}
+.flag{
+    display: flex;
+    background-color: black;
+    height: 15px;
+    width: 18px;
+}
+.flag-flag{
+    background-color: rgba(170, 19, 140, 0.915);
+}
+.flag-en{
+    color: white;
+    border: none;
+    background-color: black;
+    font-size: 1rem;
+}
+.info-signin{
+    font-size: 14px;
+    color: white;
+
+}
+.info-accounts{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.retord{
+    height: 50px;
+    width: 76px;
+    text-align: justify;
+}
+.return{
+    font-size: 14px;
+}
+.order{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+}
+.nav-cart i{
+    font-size: 25px;
+}
+.cart-form{
+    font-size: 0.85rem;
+    left: 0.2px;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops p{
+    display: inline;
+    width: 80%;
+    margin-left: 9px;
+    font-weight: 600;
+}
+.panel-ops{
+    width:95%;
+    font-size: 0.83rem;
+    font-weight: 50px;
+}
+.wallpaper{
+    height: 380px;
+    background-image: url(amazonwallpaper.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    
+}
+.wallpaper-box{
+    height: 40px;
+    width: 97%;
+    background-color: white;
+    margin-bottom: 70px;
+    color: black;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wallpaper-box a{
+    color: green;
+    font-size: 0.89rem;
+}
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(237, 234, 234);
+    
+.box{
+    height: 430px;
+    width: 22%;
+    background-color: white;
+    margin-top: 2%;
+}
+    
+}
+.content1{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.8rem;
+}
+.content1 a{
+    text-decoration: none;
+    color: green;
+}
+.box-img{
+    height: 320px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.content2{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.8rem;
+}
+.content2 a{
+    text-decoration: none;
+    color: green;
+    margin-top: 1%;
+}
+.intobox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+    
+}
+.img{
+    background-size:cover;
+    background-position: center;
+    height: 8rem;
+    width: 8rem;   
+}
+.wished{
+    background-color: white;
+    height: 260px;
+    width: 95%;
+    background-color: white;
+    margin-top: 2%;
+}
+.wishedbox{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    height: 230px;
+    width: 98%;
+}
+.multiple{
+    height:200px ;
+    width: 98% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wishbox{
+    background-size: cover;
+    height:12rem;
+    width:10rem;
+
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color:#222f3d ;
+    height: 320px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 2%;
+}
+ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 6%;
+}
+.foot-panel3{
+    background-color:#222f3d ;
+    height: 6.4rem;
+    border-top: 0.5px solid grey;
+    display: flex;
+    
+    align-items:center ;
+}
+.footlogo{
+    background-image: url(OIP-Photoroom.jpg);
+    background-color: #222f3d;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-left: 24rem;
+
+}
+.foot-search{
+    height: 1.8rem;
+    width: 10rem;
+    border: 0.5px solid grey;
+    background-color:#222f3d ;
+    color: white;
+    display: flex;
+    text-align: center;
+    border-radius:3px;
+    margin-left: 9rem;
+}
+.foot-dollar{
+    height: 1.8rem;
+    width: 10rem;
+    border: 0.5px solid grey;
+    background-color:#222f3d ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+    border-radius:3px;
+    margin-left: 8px;
+}
+.united{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#222f3d;
+    height: 1.8rem;
+    width: 10rem;
+    border: 0.5px solid grey;  
+    border-radius:3px;
+    margin-left:8px;
+}
+
+.foot-flag{
+    height: 1rem;
+    background-color: rgba(170, 19, 140, 0.915);
+}
+.states{
+    height: 1rem;
+    color: white;
+    border: none;
+    background-color:#222f3d;
+    font-size: 0.8rem;
+}
+.foot-panel4{
+    background-color: black;
+    color: white;
+    height: 100px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 15px;
+}
+.copyright{
+    padding-top: 5px;
+}
+
+
+
+
